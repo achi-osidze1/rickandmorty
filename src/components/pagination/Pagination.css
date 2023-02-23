@@ -1,0 +1,13 @@
+.page-link{
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: #24262d;
+}
+
+.page-link:hover{
+    background-color: rgb(34, 119, 255);
+    color: white;
+    transform: scale(1.1);
+    transition: 0.3s;
+}

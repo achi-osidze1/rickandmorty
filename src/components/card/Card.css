@@ -1,0 +1,59 @@
+.card{
+    width: 18rem;
+    margin: 15px;
+    border: none;
+    background:  #24262d;
+    color: white;
+    box-shadow: 3px 5px 3px 2px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.card:hover{
+    box-shadow: 9px 5px 3px 2px rgb(0, 0, 0);
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.card img:hover{
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.card-title:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.card-text:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+.list-group-item{
+    color: white;
+    background: #24262d;
+}
+
+.list-group-item:hover{
+    color: orange;
+    transition: 0.3s;
+}
+
+
+@media (max-width: 480px) {
+    .card{
+        flex: 0 0 39.3333%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    .card{
+        flex: 0 0 40.3333%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .card{
+        width: 16rem;
+    }
+}

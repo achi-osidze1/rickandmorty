@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text-center{
+    font-weight: 900;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+@media (max-width: 480px) {
+    .text{
+        top: 0;
+        margin-top: 25%;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+@media (min-width: 481px) and (max-width: 767px) {
+    .text{
+        top: 0;
+        margin-top: 25%;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@media (min-width: 768px) and (max-width: 1024px){
+    .text{
+        top: 0;
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .text{
+        top: 0;
+        margin-top: 25%;
+    }
+}
+
+@media (min-width: 1281px) {
+    .text{
+        top: 0;
+        margin-top: 25%;
+    }
 }

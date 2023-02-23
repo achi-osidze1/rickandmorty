@@ -1,0 +1,12 @@
+input:focus::-webkit-input-placeholder {
+    font-size: .75em;
+    position: relative;
+    top: -15px; 
+    transition: 0.3s ease-out;
+}
+
+#input{
+    color: white;
+    background-color: #24262d;
+    border: none;
+}
